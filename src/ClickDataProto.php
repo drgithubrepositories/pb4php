@@ -1,7 +1,12 @@
 <?php
-namespace 
+namespace Dr\Pb4Php;
 
-require_once('message/pb_message.php');
+use PBEnum;
+use PBInt;
+use PBMessage;
+use PBString;
+
+include 'message/pb_message.php';
 
 class ClickDataProto_ClickDataType extends PBEnum
 {
