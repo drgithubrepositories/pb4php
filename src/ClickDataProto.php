@@ -1,7 +1,8 @@
 <?php
-namespace Dr\Pb4Php;
+namespace 
 
-require_once('../message/pb_message.php');
+require_once('message/pb_message.php');
+
 class ClickDataProto_ClickDataType extends PBEnum
 {
 	const NONE  = 0;
